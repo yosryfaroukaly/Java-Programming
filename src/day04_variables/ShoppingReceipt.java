@@ -44,6 +44,11 @@ public class ShoppingReceipt {
         System.out.println("-------------------------");
         System.out.println("*******THANK YOU*********");
 
+        /*
+        System.out.println(); prints an empty lines between the code
+        \n also goes to the next line
+         */
+
     }
 
 }
