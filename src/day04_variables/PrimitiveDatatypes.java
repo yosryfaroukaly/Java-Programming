@@ -15,7 +15,6 @@ public class PrimitiveDatatypes {
 
         int addressNumber = 2444400;
 
-
        // long bigNumber = 19481840955959; the value is int type, it is too big for int
 
         long bigNumber;
