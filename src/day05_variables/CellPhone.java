@@ -27,6 +27,14 @@ public class CellPhone {
         System.out.println("It came in the color " + color + " and it has " + storage + "GB");
         System.out.println("For the sim type " + sim + " with a camera " + hasCamera + " the total price was $" + price);
 
+        // approach 2 with String variable:
+
+        String fullMessage = "\nI have an " + model + " from "+ brand + "\nIt came in the color " + color + " and it has " + storage + "GB \nFor the sim type" + sim + " with a camera" + hasCamera + " the total price was $" + price;
+
+        System.out.println(fullMessage);
+        System.out.println(fullMessage);
+
+
     }
 
 
