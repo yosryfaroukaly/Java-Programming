@@ -24,5 +24,8 @@ public class TypeCasting {
         System.out.println(d);
         System.out.println(i5);
 
+        double d2 = 40;
+        byte b3 = (byte)d2;
+
     }
 }
