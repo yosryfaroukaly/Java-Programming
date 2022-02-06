@@ -25,7 +25,15 @@ public class RecapVariables {
         System.out.println(totalPriceOfCoffee);
         System.out.println(totalStudentInClass);
 
-        System.out.println(numberOfCoffeeCups + " * " + totalStudentInClass);
+        System.out.println(numberOfCoffeeCups + " * " + totalStudentInClass);  // we use concatenation to print the values of two variables at the time
+
+        // Declare and assign
+
+        double temperature = 20.6;
+        int javaDays = 5;
+
+        System.out.println("\nThis is my temperature: " + temperature);
+        System.out.println("It is day " + javaDays + " in java class");
 
 
     }
