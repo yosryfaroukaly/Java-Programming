@@ -32,7 +32,7 @@ public class CellPhone {
         String fullMessage = "\nI have an " + model + " from "+ brand + "\nIt came in the color " + color + " and it has " + storage + "GB \nFor the sim type" + sim + " with a camera" + hasCamera + " the total price was $" + price;
 
         System.out.println(fullMessage);
-        System.out.println(fullMessage);
+        System.out.println(fullMessage); // the point that, we can print the whole message again, very easily
 
 
     }
