@@ -35,14 +35,12 @@ public class House {
 
         System.out.println(houseInfo);
 
-
         // approach 2:
 
-//        String houseType = "Penthouse";
+//        String houseType = "Penthouse", address = "129481 Central Park";
 //        int numberOfBedrooms = 4, numberOfBathrooms = 3, numberOfKitchens = 2, zipcode = 219124;
 //        boolean hasBasement = false, hasAttic = false, hasPool = true, isOnSale = false, hasPark = true;
 //        double costOfHouse = 1_000_000.99, schoolRating = 4.6;
-//        String address = "129481 Central Park";
 
     }
 }
