@@ -18,6 +18,9 @@ public class BasicCalculator {
         System.out.println(num1 + " / " + num2 + " = " + division);
         System.out.println(num1 + " % " + num2 + " = " + remainder);
 
+
+        System.out.println(num1 + " + " + num2 + " = " + (num1 + num2));
+
     }
 }
 
