@@ -31,5 +31,6 @@ public class CastingExamples {
         System.out.println((int)'&');
 
 
+
     }
 }
