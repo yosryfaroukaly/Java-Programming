@@ -7,6 +7,7 @@ public class Letters {
 
         char letter = 'G';
         System.out.println("Original " + letter++);
+
         System.out.println("Next four: ");
         System.out.println(letter++);
         System.out.println(letter++);

@@ -4,11 +4,11 @@ public class IncrementExample3 {
 
     public static void main(String[] args) {
 
-//        int i = 5; // 6
-//        int z = i++; // 5
-//
-//        System.out.println(i);
-//        System.out.println(z);
+        int i = 5; // i = 6
+        int z = i++; // z = 5
+
+        System.out.println(i);
+        System.out.println(z);
 
         int a = 10;
         int b = a + 1;
