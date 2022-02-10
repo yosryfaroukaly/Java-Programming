@@ -22,6 +22,5 @@ public class OperatorPractice3 {
         System.out.println("h " + h);
         System.out.println("g " + g);
 
-
     }
 }
