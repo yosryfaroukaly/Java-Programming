@@ -11,6 +11,36 @@ public class OperatorPractice {
          */
         System.out.println(w);
 
+        int a = 8; // 8 -> 7
+        int b = a--; // b = 8
+
+        System.out.println(a);
+        System.out.println(b);
+
+        int L = 50; // L = 50 -> 49 -> 50 -> 49 -> 50
+        int P = --L + L++ + L-- + L++;
+        //       49 + 49 + 50 + 49
+        System.out.println(L);
+        System.out.println(P);
+
+
+        int R = 20; // R = 20 -> 19 -> 20 -> 19 -> 18
+        int W = -R-- + -R++ + --R * R-- % 2;
+        //      -20  + -19  +  19 * 19 % 2
+        //      -20  + -19  +  361 % 2
+        //      -20  + -19  +  1
+        //      -39  + 1
+        //      -38
+
+        /*
+            361 % 2
+            how many times does 2 go into 360 evenly
+            2 into 361, 180 times -> 360
+
+            361 - 360 -> 1
+
+         */
+
 
     }
 }
