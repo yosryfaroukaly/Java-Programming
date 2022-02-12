@@ -40,7 +40,18 @@ public class OperatorPractice {
             361 - 360 -> 1
 
          */
+        System.out.println(R);
+        System.out.println(W);
 
+        int e = 1; // e = 1 -> 0 -> 1 -> 0 -> -1
+        int f = -e-- + e++ / -e-- * --e;
+        //      -1  + 0  / - 1 * -1
+        //      -1 + 0 * -1
+        //      -1 + 0
+        //      -1
+
+        System.out.println(e);
+        System.out.println(f);
 
     }
 }
