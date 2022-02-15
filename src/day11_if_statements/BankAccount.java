@@ -1,5 +1,7 @@
 package day11_if_statements;
 
+import java.util.Scanner;
+
 public class BankAccount {
     /*
     Task: Hard code -> Dynamic
@@ -16,10 +18,15 @@ public class BankAccount {
 
     public static void main(String[] args) {
 
+        Scanner input = new Scanner(System.in);
+        System.out.println("What is your balance");
+        double balance = input.nextDouble();
+        System.out.println("How much are you withdrawing");
+        double withdraw = input.nextDouble();
 
-
-        double balance = 400;
-        double withdraw = 1000;
+        // hard coded version
+//        double balance = 400;
+//        double withdraw = 1000;
 
         // withdraw some amount of money from my balance
         balance -= withdraw; // balance = balance - withdraw
