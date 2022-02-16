@@ -14,8 +14,8 @@ public class Overtime {
      */
     public static void main(String[] args) {
 
-        double hourlyRate = 20.5;
-        double numberOfHours = 44;
+        double hourlyRate = 20.5; // scanner.nextDouble()
+        double numberOfHours = 44;  // scanner.nextDouble()
         double netPay;
         String message;
 
@@ -37,4 +37,5 @@ public class Overtime {
         System.out.println(message);
 
     }
+
 }
