@@ -16,7 +16,7 @@ find out if the letter is an uppercase letter or lowercase letter. Print the typ
      */
     public static void main(String[] args) {
 
-        char letter = '&';
+        char letter = 'a';
 
 //        if(letter >= 97 && letter <= 122){
 //            System.out.println("lowercase");
