@@ -14,6 +14,8 @@ public class DayOfWeek {
             Ex: 2
                 Tuesday
 
+                // website: ww.google.com
+
      */
     public static void main(String[] args) {
 
