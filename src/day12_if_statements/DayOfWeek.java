@@ -17,7 +17,7 @@ public class DayOfWeek {
      */
     public static void main(String[] args) {
 
-        int day = 30;
+        int day = 4;
 
         if(day == 1){
             System.out.println("Monday");
@@ -37,6 +37,22 @@ public class DayOfWeek {
             System.out.println("Invalid day number");
         }
 
-
+//        if(day == 1){
+//            System.out.println("Monday");
+//        }
+//        if(day == 2){
+//            System.out.println("Tuesday");
+//        }
+//        if(day == 3){
+//            System.out.println("Wednesday");
+//        }
+//        if (day == 4){
+//            System.out.println("Thursday");
+//        }
+//        if (day == 5){
+//            System.out.println("Friday");
+//        } if(day == 6) {
+//            System.out.println("Saturday");
+//        }
     }
 }
