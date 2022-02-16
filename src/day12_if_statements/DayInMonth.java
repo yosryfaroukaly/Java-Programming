@@ -20,7 +20,7 @@ use the following data to help you determine the number of days in each month:
      */
     public static void main(String[] args) {
 
-        int month = 12; // scanner.nextInt();
+        int month = 1; // scanner.nextInt();
 
         boolean has31Days = month == 1 || month == 3 || month == 5 || month == 7 || month == 8 || month == 10 || month == 12;
 
@@ -39,6 +39,19 @@ use the following data to help you determine the number of days in each month:
         if(has28Days) {
             System.out.println("28 days");
         }
+
+        // above is 3 single if statements, below is one multi branch if
+
+        if(has31Days){
+            System.out.println("31 days");
+        } else if(has30Days) {
+            System.out.println("30 days");
+        } else if(has28Days){
+            System.out.println("28 days");
+        } else {
+            System.out.println("Invalid number for month");
+        }
+
 
     }
 
