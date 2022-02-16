@@ -1,5 +1,7 @@
 package day12_if_statements;
 
+import java.util.Scanner;
+
 public class Biggest {
 
     /*
@@ -11,9 +13,15 @@ public class Biggest {
 
     public static void main(String[] args) {
 
-        int num1 = 40;
-        int num2 = 40;
-        int num3 = 40;
+        Scanner input = new Scanner(System.in);
+        System.out.println("Please enter 3 numbers. Use enter after each");
+        int num1 = input.nextInt();
+        int num2 = input.nextInt();
+        int num3 = input.nextInt();
+
+//        int num1 = 40;
+//        int num2 = 40;
+//        int num3 = 40;
 
         if(num1 >= num2 && num1 >= num3){
             System.out.println(num1 + " is the biggest");
