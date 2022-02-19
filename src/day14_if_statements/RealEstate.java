@@ -49,11 +49,11 @@ public class RealEstate {
 
         String name = "", range = "";
         double rating = 0;
-        boolean gated = false, allowPets = false;
+        boolean gated = false, allowPets = false, isAvailable = true;
 
         if (budget > 0 && budget < 300_000) {
 
-            System.out.println("Lets see if there is no houses");
+            System.out.println("Looking for houses");
 
             if (budget >= 55_000 && budget <= 75_000) {
                 name = "Oaks";
@@ -81,13 +81,17 @@ public class RealEstate {
                 allowPets = true;
             } else {
                 System.out.println("No available houses");
+                isAvailable = false;
             }
 
-            String ad = "Name of the neighborhood: " + name + "\nPrice range: " + range + "\nRating: " + rating;
-            ad +=  "Gated: " + (gated ? "Yes" : "No"); // this means if the gated boolean is true, it will concatenate "yes" into the ad, but if the gated boolean is false it will concatenate "no" into the ad
-            ad += (allowPets ? "They allow pets" : "They don't allow pets");
+            if(isAvailable) {
 
-            System.out.println(ad);
+                String ad = "Name of the neighborhood: " + name + "\nPrice range: " + range + "\nRating: " + rating;
+                ad += "\nGated: " + (gated ? "Yes" : "No"); // this means if the gated boolean is true, it will concatenate "yes" into the ad, but if the gated boolean is false it will concatenate "no" into the ad
+                ad += "\n" + (allowPets ? "They allow pets" : "They don't allow pets");
+
+                System.out.println(ad);
+            }
 
         } else {
 
