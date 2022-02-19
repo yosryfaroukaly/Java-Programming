@@ -15,9 +15,9 @@ public class Atm {
 
             System.out.println("Logged in");
             System.out.println("Select a number");
-            System.out.println("1)Check Balance");
-            System.out.println("2)Withdraw");
-            System.out.println("3)Deposit");
+            System.out.println("\t1)Check Balance");
+            System.out.println("\t2)Withdraw");
+            System.out.println("\t3)Deposit");
             int option = input.nextInt();
 
             if(option == 1){
