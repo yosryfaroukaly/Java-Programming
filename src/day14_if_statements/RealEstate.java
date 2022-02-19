@@ -47,9 +47,9 @@ public class RealEstate {
         System.out.println("What is your max budget?");
         int budget = input.nextInt();
 
-        String name, range;
-        double rating;
-        boolean gated, allowPets;
+        String name = "", range = "";
+        double rating = 0;
+        boolean gated = false, allowPets = false;
 
         if (budget > 0 && budget < 300_000) {
 
@@ -82,6 +82,12 @@ public class RealEstate {
             } else {
                 System.out.println("No available houses");
             }
+
+            String ad = "Name of the neighborhood: " + name + "\nPrice range: " + range + "\nRating: " + rating;
+            ad +=  "Gated: " + (gated ? "Yes" : "No"); // this means if the gated boolean is true, it will concatenate "yes" into the ad, but if the gated boolean is false it will concatenate "no" into the ad
+            ad += (allowPets ? "They allow pets" : "They don't allow pets");
+
+            System.out.println(ad);
 
         } else {
 
