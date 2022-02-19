@@ -21,7 +21,8 @@ Write a program that will read a number from the user. This number will be a yea
 		Any year not in those ranges: No Pandemic
      */
 
-    public static void main(String[] args) {
+    public static void main(String[] args)
+    {
 
         Scanner input = new Scanner(System.in);
         System.out.println("Enter the year you want to check:");
@@ -54,8 +55,6 @@ Write a program that will read a number from the user. This number will be a yea
         System.out.println(pandemic);
 
 
-
-
-
     }
+
 }
