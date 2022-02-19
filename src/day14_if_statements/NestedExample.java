@@ -4,9 +4,9 @@ public class NestedExample {
 
     public static void main(String[] args) {
 
-        boolean a = false;
-        boolean b = true;
-        boolean c = true;
+        boolean a = true;
+        boolean b = false;
+        boolean c = false;
 
         if(a) {
 
