@@ -18,6 +18,7 @@ public class Browser {
                 System.out.println("Loading...");
                 break;
             case "Safari":
+            case "safari":
                 System.out.println("Opening " + url + " in safari");
                 break;
             case "Firefox":
