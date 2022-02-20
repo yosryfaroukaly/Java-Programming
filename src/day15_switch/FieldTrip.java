@@ -24,19 +24,19 @@ public class FieldTrip {
         String location = "", teacher = "";
         int numberOfGroups = 0;
 
-        if(grade >= 1 && grade <= 6){
+        if (grade >= 1 && grade <= 6) {
 
-            if(grade == 1){
+            if (grade == 1) {
                 location = "Apple orchard";
                 numberOfGroups = 3;
                 teacher = "Ms. Smith";
-            } else if (grade == 2){
+            } else if (grade == 2) {
 
-            } else if(grade == 3){
+            } else if (grade == 3) {
 
-            } else if(grade == 4){
+            } else if (grade == 4) {
 
-            } else if(grade == 5){
+            } else if (grade == 5) {
 
             } else {
                 // this one is for grade 6
