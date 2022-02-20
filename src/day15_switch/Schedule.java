@@ -55,6 +55,5 @@ public class Schedule {
 
         System.out.println(information);
 
-
     }
 }
