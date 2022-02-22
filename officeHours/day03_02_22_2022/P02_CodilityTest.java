@@ -48,23 +48,26 @@ public class P02_CodilityTest {
 
 
         // with multi branch if
+        number = 15;
 
-        if (number % 2 == 0) {
-            result = "Codility";
-        } else if (number % 3 == 0) {
-            result = "Test";
-        } else if (number % 5 == 0) {
-            result = "Coders";
+        if (number % 2 == 0 && number % 3 == 0 && number % 5 == 0) {
+            result = "CodilityTestCoders";
         } else if (number % 2 == 0 && number % 3 == 0) {
             result = "CodilityTest";
-
         } else if (number % 2 == 0 && number % 5 == 0) {
             result = "CodilityCoders";
         } else if (number % 3 == 0 && number % 5 == 0) {
             result = "TestCoders";
-        } else if (number % 2 == 0 && number % 3 == 0 && number % 5 == 0) {
-            result = "CodilityTestCoders";
+        } else if (number % 5 == 0) {
+            result = "Coders";
+        } else if (number % 3 == 0) {
+            result = "Test";
+        } else if (number % 2 == 0) {
+            result = "Codility";
         }
+
+        System.out.println("result = " + result);
+
 
     }
 }
