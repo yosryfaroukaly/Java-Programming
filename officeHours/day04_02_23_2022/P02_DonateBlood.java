@@ -20,8 +20,10 @@ public class P02_DonateBlood {
       				   */
 
         Scanner sc=new Scanner(System.in);
-        int age = sc.nextInt();
-        int weight=82;
+        System.out.println("Enter your age:");
+        int age =sc.nextInt();
+        System.out.println("Enter your weight:");
+        int weight=sc.nextInt();
 
 
         if(age>=18){
