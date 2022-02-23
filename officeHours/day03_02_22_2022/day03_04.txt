@@ -170,7 +170,7 @@ Review  Topics
                             		Ex:
                             			inputs: Bedroom,length 4,width 3,1300 Lamar St Houston TX 77010
 
-                            			"TotalCost for your carpet is 47.02 and it will be delivery 1300 Lamar St Houston TX 77010 in one week"
+                            			"TotalCost for your carpet is 47.04 and it will be delivery 1300 Lamar St Houston TX 77010 in one week"
                                      */
 
 
