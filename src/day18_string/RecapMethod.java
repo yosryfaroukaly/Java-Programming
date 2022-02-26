@@ -21,11 +21,20 @@ public class RecapMethod {
         int len = s.length();
         System.out.println(len);
 
+        System.out.println(s.length());
+
+        // int a = 9;
+        // a.length() -> invalid
+        // a.equals() -> invalid
+
         if(s.length() > 4){
             System.out.println("long word");
         } else {
             System.out.println("short word");
         }
+
+        System.out.println(("aaaa").length());
+        System.out.println(("aa aa").length());
 
     }
 }
