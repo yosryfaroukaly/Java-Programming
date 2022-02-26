@@ -33,7 +33,7 @@ public class Filter {
         if(msg.contains("java is bad") || msg.contains("quit") || msg.contains("have fun") || msg.contains("crying")){
             System.out.println("Message failed to send");
         } else {
-            System.out.println(msg + " was sent");
+            System.out.println("\"" + msg +  "\"" + " was sent");
         }
 
 
