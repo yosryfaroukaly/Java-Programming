@@ -7,11 +7,11 @@ public class LongestWithA2 {
 
         Scanner input = new Scanner(System.in);
         System.out.println("Enter three words:");
-        String wordOne = input.next().toLowerCase();
-        String wordTwo = input.next().toLowerCase();
+        String wordOne = input.next().toLowerCase();  // apple
+        String wordTwo = input.next().toLowerCase(); // java
         String wordThree = input.next().toLowerCase();
 
-        String longestWord = "";
+        String longestWord = ""; // apple
 
         if (wordOne.contains("a") && wordOne.length() > longestWord.length()) {
             longestWord = wordOne;
@@ -19,7 +19,6 @@ public class LongestWithA2 {
 
         if (wordTwo.contains("a") && wordTwo.length() > longestWord.length()) {
             longestWord = wordTwo;
-
         }
 
         if (wordThree.contains("a") && wordThree.length() > longestWord.length()) {
@@ -27,6 +26,15 @@ public class LongestWithA2 {
         }
 
         System.out.println(longestWord.isEmpty() ? "No single largest word with a" : longestWord + " is the longest word with a");
+
+        /*
+
+            if(longestWord.isEmpty())
+                 print "No single largest word with a"
+            else
+               print:  longestWord + " is the longest word with a"
+
+         */
 
 
     }
