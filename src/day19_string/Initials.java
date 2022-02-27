@@ -31,7 +31,6 @@ public class Initials {
             2)
             char firstLetter = firstName.toUpperCase().charAt(0);
 
-
          */
 
 
