@@ -26,7 +26,7 @@ public class FixName {
         String fixedFirst = firstName.substring(0,1).toUpperCase(); // J
         fixedFirst += firstName.substring(1); // James
 
-        // firstName.charAt(0) --> this will also give you the first character, but as a char type
+        // ( "" + firstName.charAt(0)).method --> this will also give you the first character, but as a char type
 
         String fixedLast = lastName.substring(0,1).toUpperCase() + lastName.substring(1);
 
