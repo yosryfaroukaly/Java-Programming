@@ -1,5 +1,7 @@
 package day05_03_01_2022;
 
+import java.util.Scanner;
+
 public class P01_CarpetShop {
     public static void main(String[] args) {
 
@@ -27,6 +29,42 @@ public class P01_CarpetShop {
                                      */
 
 
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Please type one of them.\n\tList of Rooms\n\t\tBedroom\n\t\tKitchen");
+        String roomType = scanner.nextLine().toLowerCase();
+        boolean isValid = roomType.equals("bedroom") || roomType.equals("kitchen");
+        double area=0;
+        double unitPrice=3.92;
+
+        if (isValid) {
+            System.out.println("Calculating.....");
+
+
+            switch (roomType){
+                case "bedroom":
+                    System.out.println("Please enter your "+roomType+" dimensions ");
+                    double width=scanner.nextDouble();     // 3    ENTER       scanner -- > ENTERENTER
+                    double length=scanner.nextDouble();    // 4    ENTER
+                    area=width*length;
+                    break;
+                case "kitchen":
+                    System.out.println("Please enter your "+roomType+" dimensions ");
+                    double radius=scanner.nextDouble();
+                    area=radius*radius*3.14;
+                    break;
+            }
+
+            double totalCost=unitPrice*area;
+            scanner.nextLine();   // To clear scanner memory    scanner -- >
+            System.out.println("Please enter your address");
+            String address= scanner.nextLine();
+
+            System.out.println("TotalCost for your carpet is "+totalCost+" and it will be delivery "+address+" in one week");
+
+
+        } else {
+            System.out.println("Invalid Room Type");
+        }
 
 
     }
