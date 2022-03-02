@@ -68,6 +68,6 @@ public class PrintNumbers {
               while(b++ <= 100) --> 2 <= 100 -> loop runs and b increments to 3
          */
 
-        come back at 9: 22
+
     }
 }
