@@ -16,6 +16,20 @@ public class P02_SearchResult {
 					Result number is 640,000,000
 					Response time is 0.78 seconds
          */
+        String result="About 649823402394803280,000,000 results (0.78 seconds)";
+
+        int startIndex=result.indexOf(" ");
+        int endIndex=result.indexOf(" ",startIndex+1);
+
+        String searchResult=result.substring(startIndex+1,endIndex);
+        System.out.println("searchResult = " + searchResult);
+
+
+        startIndex =result.indexOf("(");
+        endIndex = result.indexOf(")");
+
+        String searchTime=result.substring(startIndex+1,endIndex);
+        System.out.println("searchTime = " + searchTime);
 
 
     }
