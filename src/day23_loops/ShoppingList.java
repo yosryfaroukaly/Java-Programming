@@ -22,7 +22,12 @@ public class ShoppingList {
         do{
 
             System.out.println("Enter the name of the item");
-            list += "\n* " + input.nextLine();
+            list += "\n* " + input.nextLine(); // this could also be done separate. You can assign to a String variable first then concatenate to list
+
+            /*
+                String item = input.nextLine();
+                list += item;
+             */
 
             System.out.println("Do you want to add more to your shopping list?");
             addMore = input.nextLine();
