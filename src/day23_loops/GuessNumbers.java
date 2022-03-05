@@ -47,6 +47,5 @@ Challenge: keep track of the number of attempts taken to guess right
         System.out.println("You guessed correct");
 
 
-
     }
 }
