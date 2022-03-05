@@ -31,6 +31,5 @@ public class CountLetter {
         System.out.println(count);
 
 
-
     }
 }
