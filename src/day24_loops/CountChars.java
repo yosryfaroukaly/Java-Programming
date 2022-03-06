@@ -34,6 +34,8 @@ public class CountChars {
 
         }
 
+        // the purpose of the loop was to check every character and see is it uppercase, lowercase, or a number. We want the loop to finish which means every character was checked. Then we will print one time after the loop the results
+
         System.out.println("Uppercase characters: " + upper);
         System.out.println("Lowercase characters: " + lower);
         System.out.println("Number characters: " + number);
