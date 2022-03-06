@@ -5,7 +5,8 @@ public class RemoveDuplicates {
 
         /*
         Remove Duplicates
-            Write a program that can remove duplicates from a String Ex:
+            Write a program that can remove duplicates from a String
+             Ex:
             Input: abcabc
             Output: abc
          */
@@ -19,6 +20,8 @@ public class RemoveDuplicates {
             }
         }
 
+        System.out.println(unique);
+
 
     }
 }
@@ -26,13 +29,60 @@ public class RemoveDuplicates {
 
 /*
 
+        String s = "abcabc";
+        String unique = "";
 
+    for(int i = 0; i < s.length(); i++){
 
+        iteration 1:
+            i = 0
+            charAt(i) --> charAt(0) --> a
+            unique = "";
 
+            if(!unique.contains("a")){  unique.contains("a") --> false --> !false --> true
+                unique += s.charAt(i);
+            }
 
+            unique = "a";
+            i++;
 
+        iteration 2:
+            i = 1
+            charAt(i) --> charAt(1) --> b
+            unique = "a";
 
+            if(!unique.contains("b")){  unique.contains("b") --> false --> !false --> true
+                unique += s.charAt(i);
+            }
 
+            unique = "ab";
+            i++;
+
+        iteration 3:
+            i = 2
+            charAt(i) --> charAt(2) --> c
+            unique = "ab";
+
+            if(!unique.contains("c")){  unique.contains("c") --> false --> !false --> true
+                unique += s.charAt(i);
+            }
+
+            unique = "abc";
+            i++;
+
+        iteration 4:
+            i = 3
+            charAt(i) --> charAt(3) --> a
+            unique = "abc";
+
+            if(!unique.contains("a")){  unique.contains("a") --> true --> !true --> false
+                unique += s.charAt(i);
+            }
+
+            unique = "abc";
+            i++;
+
+        continues for iteration 5 and 6
 
 
  */
