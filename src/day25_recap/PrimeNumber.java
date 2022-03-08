@@ -29,7 +29,7 @@ public class PrimeNumber {
         System.out.println("Enter a number");
         int number = input.nextInt();
 
-        boolean isPrime = number >= 2;
+        boolean isPrime = number >= 2; // true when you have valid numbers -> more than 1, otherwise it will be false
 
         // this loop is tyring to check if our number is evenly divisible by value from 2 to the number
 
@@ -47,8 +47,6 @@ public class PrimeNumber {
         } else {
             System.out.println(number + " is not prime");
         }
-
-
 
     }
 
