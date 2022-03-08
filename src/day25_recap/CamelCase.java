@@ -38,3 +38,4 @@ public class CamelCase {
 
     }
 }
+//    if(i != 0 && str.charAt(i - 1) == ' '){
