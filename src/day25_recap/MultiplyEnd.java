@@ -37,7 +37,6 @@ Multiply End [String, Loops]
 
         System.out.println(word);
 
-
     }
 
 }
