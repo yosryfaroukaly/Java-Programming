@@ -39,14 +39,19 @@ public class P02_Anagram {
 
             }
 
+
             if (b.isEmpty()) {
                 System.out.println("Anagram");
             } else {
                 System.out.println("Not Anagram");
             }
+
+
         } else {
             System.out.println("Not Anagram");
         }
 
     }
+
+
 }
