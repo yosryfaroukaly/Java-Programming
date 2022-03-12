@@ -26,17 +26,17 @@ public class StudentInformation {
         studentTwo[3] = "26";
         System.out.println(Arrays.toString(studentTwo));
 
-//        String [] studentThree = new String[4];
+        String [] studentThree = new String[4];
         Scanner input = new Scanner(System.in);
-//        System.out.println("Enter your id");
-//        studentThree[0] = input.nextLine();
-//        System.out.println("Enter your first name");
-//        studentThree[1] = input.nextLine();
-//        System.out.println("Enter your last name");
-//        studentThree[2] = input.nextLine();
-//        System.out.println("What is your batch number");
-//        studentThree[3] = input.nextLine();
-//        System.out.println(Arrays.toString(studentThree));
+        System.out.println("Enter your id");
+        studentThree[0] = input.nextLine();
+        System.out.println("Enter your first name");
+        studentThree[1] = input.nextLine();
+        System.out.println("Enter your last name");
+        studentThree[2] = input.nextLine();
+        System.out.println("What is your batch number");
+        studentThree[3] = input.nextLine();
+        System.out.println(Arrays.toString(studentThree));
 
         String [] studentFour = new String[4];
         String [] questions = { "Enter your id", "Enter your first name", "Enter your last name", "What is your batch number"};
