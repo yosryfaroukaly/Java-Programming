@@ -44,6 +44,15 @@ public class BankAccount {
         bankAccountThree[3] = input.nextLine();
         System.out.println(Arrays.toString(bankAccountThree));
 
+        String [] bankAccountFour = new String[4];
+        String [] questions = {"full name", "account type", "account number", "balance"};
+
+        for(int i = 0; i < bankAccountFour.length; i++){
+            System.out.println("Enter your " + questions[i]);
+            bankAccountFour[i] = input.nextLine();
+        }
+
+        System.out.println(Arrays.toString(bankAccountFour));
     }
 
 }
