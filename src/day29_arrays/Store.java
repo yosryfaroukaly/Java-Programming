@@ -18,7 +18,16 @@ public class Store {
 
         // Task: Find the index of Gloves
 
+        int indexOfGloves = -1; // we set -1 as the default, so that if gloves is not found in the array it will always give -1
 
+        for(int i = 0; i < items.length; i++){
+            if(items[i].equalsIgnoreCase("gloves")){
+                indexOfGloves = i;
+                break;
+            }
+        }
+
+        System.out.println("Index of gloves " + indexOfGloves);
 
 
 
