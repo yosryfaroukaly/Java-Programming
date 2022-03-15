@@ -29,5 +29,7 @@ public class SplitExamples {
             System.out.println(each);
         }
 
+        System.out.println(Arrays.toString(str.split("")));
+
     }
 }
