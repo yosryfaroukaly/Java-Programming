@@ -1,5 +1,7 @@
 package day09_03_15_2022;
 
+import java.util.Arrays;
+
 public class P01_CreateArray {
     public static void main(String[] args) {
         /*
@@ -16,5 +18,49 @@ public class P01_CreateArray {
                 Output
                         int[] b → [11, 12, 13, 14, 15, 16, 17]
          */
+
+        int start=11;
+        int end=18;
+        int length=end-start;
+
+        int[] newArray=new int[length];
+
+
+
+        for (int i = 0; i < newArray.length; i++) {
+            newArray[i]=start++;
+        }
+
+        System.out.println(Arrays.toString(newArray));
+
+
+        // Increase all value of element by 1
+        for (int i = 0; i < newArray.length; i++) {
+
+          // newArray[i]=newArray[i]+1;
+
+            newArray[i]+=1;
+
+        }
+        System.out.println(Arrays.toString(newArray));
+
+        // Do it same thing with FOR EACH
+        for (int each : newArray) {
+
+            // each=each+1;
+
+            each+=1;
+        }
+
+        System.out.println(Arrays.toString(newArray));
+
+
+
+
+
+
+
+
+
     }
 }
