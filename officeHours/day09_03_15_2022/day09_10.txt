@@ -44,7 +44,8 @@ Task 03 : Write a program that accepts string and prints multiple words in the s
         		 trash can
          		 dish washer
 
-Task 04 :  Write a program that accepts String array.Count how many names have the same first and last letter
+
+Task 04 : Write a program that accepts String array.Count how many names have the same first and last letter
 
           				Input : "Anna", "Mike", "Aliya", "Donald", "Saim", "Remus", "Mehmet","Asya"
 
