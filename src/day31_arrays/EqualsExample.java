@@ -20,5 +20,7 @@ public class EqualsExample {
         System.out.println(Arrays.equals(a, d));
 
 
+
+
     }
 }
