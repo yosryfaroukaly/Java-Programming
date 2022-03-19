@@ -25,7 +25,7 @@ public class Book {
         for(int i = 0; i < book.length; i++){
             System.out.println("Enter chapter " + (i + 1));
             String chapter = input.nextLine();
-            String [] sentences = chapter.split("!");  // breaking up by the dot
+            String [] sentences = chapter.split("! ");  // breaking up by the dot
             book[i] = sentences;
         }
 
