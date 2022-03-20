@@ -56,6 +56,8 @@ public class OurArrayClass {
 
         printArray(numbers2);
 
+        printArray(new int[]{40, 20, 10});
+
     }
 
 }
