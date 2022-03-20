@@ -43,5 +43,27 @@ public class Car {
         System.out.println("Going forwards");
     }
 
+    public static void goInHurry(){
+        unlockCar();
+        sitInCar();
+        startCar();
+        driveAndGo();
+    }
+
+    public static void main(String[] args) {
+        unlockCar();
+        unlockCar();
+        openDoor();
+        sitInCar();
+        getReadyToGo();
+        startCar();
+        driveAndGo();
+
+        System.out.println();
+
+        goInHurry();
+        System.out.println("hear police siren");
+        getReadyToGo();
+    }
 
 }
