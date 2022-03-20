@@ -24,7 +24,7 @@ public class LastCharacters2D {
         for(String [] eachArray : words){
 
             for(String eachWord : eachArray){
-                System.out.print(eachWord.charAt(eachWord.length() - 1));
+                System.out.print(eachWord.charAt(eachWord.length() - 1)); // words[i][j].charAt(words[i][j].length() -1));
             }
             System.out.println();
 
