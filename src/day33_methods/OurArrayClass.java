@@ -32,6 +32,17 @@ public class OurArrayClass {
 
     }
 
+    public static void printArray(int [] nums){
+        String result = "START | ";
+
+        for(int num : nums){
+            result += num + " ~ ";
+        }
+
+        result += " | END";
+        System.out.println(result);
+    }
+
     public static void main(String[] args) {
 
         int [] numbers = { 50, 0 , 10, 500, 20, 40, 124};
@@ -43,6 +54,7 @@ public class OurArrayClass {
         int [] numbers2 = { 50, 0 , 10, 500, 20, 40, 124, 19};
         middleElement(numbers2);
 
+        printArray(numbers2);
 
     }
 
