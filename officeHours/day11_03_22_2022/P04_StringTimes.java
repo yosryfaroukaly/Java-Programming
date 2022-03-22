@@ -1,5 +1,7 @@
 package day11_03_22_2022;
 
+import java.sql.SQLOutput;
+
 public class P04_StringTimes {
     public static void main(String[] args) {
         /*
@@ -10,5 +12,27 @@ public class P04_StringTimes {
                 stringTimes("Hi", 3); = > HiHiHi
                 stringTimes("Hi", 1); = > Hi
          */
+
+
+        String word="Hi";
+
+        stringTimes("Hi", 100);
+
+
     }
+
+    public static void stringTimes(String word, int num) {
+
+        String str="";
+
+        for (int i = 0; i < num; i++) {
+
+            str+=word;   // str=str+word ;
+        }
+
+        System.out.println(str);
+
+
+    }
+
 }
