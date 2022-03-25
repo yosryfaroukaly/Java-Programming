@@ -13,5 +13,13 @@ public class UsingStringUtil {
 
         System.out.println(StringUtil.frequencyOfCharacter("apple", 'z'));
 
+        System.out.println(StringUtil.uniqueCharacters("aaaabcdddeeeffzy"));
+
+        System.out.println(StringUtil.uniqueCharacters("java"));
+
+        System.out.println(StringUtil.uniqueCharacters("eeiioo"));
+
+        System.out.println(StringUtil.uniqueCharacters("apple"));
+
     }
 }
