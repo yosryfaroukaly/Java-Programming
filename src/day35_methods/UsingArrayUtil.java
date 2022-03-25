@@ -12,6 +12,10 @@ public class UsingArrayUtil {
 
         System.out.println(ArrayUtil.maxNumber(a));
 
+        System.out.println(ArrayUtil.contains(a, 12));
+
+        System.out.println(ArrayUtil.contains(a, 5));
+
 
     }
 }
