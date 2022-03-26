@@ -11,7 +11,7 @@ public class Picture {
     }
 
     public static void draw(String color, String color2){
-        System.out.println("drawing with color " + color + " and with   " + color2);
+        System.out.println("drawing with color " + color + " and with " + color2);
     }
 
     public static void draw(int size){
@@ -22,5 +22,13 @@ public class Picture {
 //    public static void draw(int length){
 //        System.out.println("drawing with size " + length);
 //    }
+
+    public static void draw(String color, int size){
+        System.out.println("color with size");
+    }
+
+    public static void draw(int size, String color){
+
+    }
 
 }
