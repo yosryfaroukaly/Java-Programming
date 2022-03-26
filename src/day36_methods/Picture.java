@@ -28,7 +28,7 @@ public class Picture {
     }
 
     public static void draw(int size, String color){
-
+        System.out.println("size first, then color");
     }
 
 }

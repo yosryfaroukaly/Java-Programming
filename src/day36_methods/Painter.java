@@ -11,6 +11,8 @@ public class Painter {
         String s = "200";
         Picture.draw(s);
 
+        Picture.draw(300, "blue");
+        Picture.draw("blue", 300);
 
 
 
