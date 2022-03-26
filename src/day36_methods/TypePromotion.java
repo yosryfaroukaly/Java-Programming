@@ -8,6 +8,11 @@ public class TypePromotion {
         use(1.2f);
         use(3L);
         use(3F);
+
+        use((double)3);
+
+        short s = 5;
+        use(s);
     }
 
     public static void use(float f){
