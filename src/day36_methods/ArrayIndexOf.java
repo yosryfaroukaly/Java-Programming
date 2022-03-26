@@ -24,7 +24,6 @@ public class ArrayIndexOf {
         return -1;
     }
 
-
     public static int indexOf(int[] nums, int element) {
 
         for (int i = 0; i < nums.length; i++) {
