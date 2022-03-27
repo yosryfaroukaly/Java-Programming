@@ -29,7 +29,10 @@ public class ArrayListExample {
         System.out.println(numbers.get(3));
         //System.out.println(numbers.get(30)); out of bounds
 
+        // how do you know how many elements are in the array: arr.length
+        // is length a method --> no
 
+        System.out.println(numbers.size());
 
 
     }
