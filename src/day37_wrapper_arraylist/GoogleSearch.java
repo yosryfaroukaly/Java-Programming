@@ -14,7 +14,16 @@ public class GoogleSearch {
         System.out.println(resultStr);
         System.out.println(timeStr);
 
+        long resultNumber = Long.parseLong(resultStr);
+        double timeNumber = Double.parseDouble(timeStr);
 
+        if(resultNumber >= 0){
+            System.out.println("TEST CASE PASSED - POSITIVE NUMBER");
+        }
+
+        if(timeNumber <= 2 && timeNumber >= 0){
+            System.out.println("TEST CASE PASSED - Under 2 seconds");
+        }
 
     }
 }
