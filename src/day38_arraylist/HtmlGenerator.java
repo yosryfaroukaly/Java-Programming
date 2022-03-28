@@ -49,4 +49,10 @@ Given a String in the following format take the number part of the generator the
     // html.repeat(3)
 
 
+    /*
+        String word = str.substring(0, str.indexOf("^"); == parts[0]
+        String number = str.substring(str.indexOf("^") + 1) == parts[1]
+
+     */
+
 }
