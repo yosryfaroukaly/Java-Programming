@@ -45,5 +45,8 @@ Given a String in the following format take the number part of the generator the
         return html;
     }
 
+    // html =   html += "<" + parts[0] + "></" + parts[0] + "> ";
+    // html.repeat(3)
+
 
 }
