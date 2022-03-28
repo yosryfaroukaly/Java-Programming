@@ -45,11 +45,14 @@ Given a String in the following format take the number part of the generator the
         return html;
     }
 
+    // to use repeat method
     // html =   html += "<" + parts[0] + "></" + parts[0] + "> ";
     // html.repeat(3)
 
 
     /*
+        instead of split, using other String methods
+
         String word = str.substring(0, str.indexOf("^"); == parts[0]
         String number = str.substring(str.indexOf("^") + 1) == parts[1]
 
