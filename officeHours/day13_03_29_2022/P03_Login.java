@@ -36,8 +36,8 @@ public class P03_Login {
 
     public static boolean login(){
 
-        String username=getUsername();
-        String password=getPassword();
+        String username=getUsername();   // getUsername method will return us username from this method
+        String password=getPassword();   // getPassword method will return us password from this method
 
         if(username.equalsIgnoreCase("cydeo") && password.equalsIgnoreCase("cydeo123")){
             return true;
