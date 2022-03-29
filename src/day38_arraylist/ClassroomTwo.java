@@ -22,6 +22,7 @@ public class ClassroomTwo {
         System.out.println(group);//[Victor, James, Ziba, Ozi]
 
         System.out.println(group.add("Emre"));
+        System.out.println(group); // [Victor, James, Ziba, Ozi, Emre]
 
     }
 }
