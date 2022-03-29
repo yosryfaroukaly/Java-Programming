@@ -21,5 +21,39 @@ public class P04_CalcFeetAndInchesToCentimeters {
 				- Hints : Use double for your number datatypes 1 inch = 2.54cm and 1 ft =12 inches
          */
 
+        System.out.println(calcFeetAndInchesToCentimeters(5,10));
+        System.out.println(calcFeetAndInchesToCentimeters(70));
     }
+
+    public static double calcFeetAndInchesToCentimeters(double feet,double inches){
+
+        if(feet<0 || inches<0 || inches>12){
+            return -1;
+        }
+
+        return ((feet*12)+inches)*2.54;
+
+    }
+
+
+    public static double calcFeetAndInchesToCentimeters(double inches){ // 70
+
+            if(inches<0 ){
+                return -1;
+            }
+
+        double feet=(int)inches/12;        // 5
+        double remainingInches=inches%12;  // 10
+
+        return calcFeetAndInchesToCentimeters(feet,remainingInches);
+
+
+    }
+
+
+
+
+
+
+
 }
