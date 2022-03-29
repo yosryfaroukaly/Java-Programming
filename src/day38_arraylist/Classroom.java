@@ -28,6 +28,11 @@ public class Classroom {
             System.out.println("Student " + (i + 1) + " " + group.get(i));
         }
 
+        System.out.println();
+
+        for(String student : group){ // student == group.get(i)
+            System.out.println("Student " + student);
+        }
 
     }
 }
