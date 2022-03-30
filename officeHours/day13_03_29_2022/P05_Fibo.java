@@ -1,7 +1,11 @@
 package day13_03_29_2022;
 
+import java.util.Arrays;
+
 public class P05_Fibo {
     public static void main(String[] args) {
+
+        fibo(8);
 
         /*
          Task 2 : Fibonacci
@@ -29,15 +33,7 @@ public class P05_Fibo {
                                  7               13   index5+index6
                                  8               21   index6+index7
 
-
-
-
-
-
-
          */
-
-
 
 
 
@@ -49,7 +45,25 @@ public class P05_Fibo {
 
 
 
+        // Array solution
 
+        int[] fibo=new int[number+1];
+
+        //System.out.println(fibo[8]);
+
+
+        fibo[0]=0;
+        fibo[1]=1;
+
+        for (int i = 2; i < fibo.length; i++) {
+
+
+            fibo[i]=fibo[i-1]+fibo[i-2];
+
+        }
+
+
+        System.out.println(Arrays.toString(fibo));
 
 
     }
