@@ -10,6 +10,18 @@ public class ClearMethod {
         nums.add(200);
         nums.add(500);
         nums.add(800);
+        System.out.println(nums);
+        System.out.println(nums.size());
+        System.out.println(nums.isEmpty());
+
+        System.out.println("Now I clear:");
+
+        nums.clear();
+
+        System.out.println(nums);
+        System.out.println(nums.size());
+        System.out.println(nums.isEmpty());
+
 
     }
 }
