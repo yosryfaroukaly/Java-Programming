@@ -22,6 +22,8 @@ public class RemoveByObject {
         nums.remove(Integer.valueOf(200));
         System.out.println(nums);
 
+        nums.remove( (Integer)800 );
+        System.out.println(nums);
 
 
     }
