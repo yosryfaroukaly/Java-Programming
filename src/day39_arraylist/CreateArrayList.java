@@ -19,5 +19,7 @@ public class CreateArrayList {
         ArrayList<String> listThree = new ArrayList<>( Arrays.asList("one", "two", "three") );
         System.out.println(listThree);
 
+        //ArrayList<String> listFour = new ArrayList<>("four", "five", "six"); not valid
+
     }
 }
