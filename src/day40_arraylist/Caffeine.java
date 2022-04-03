@@ -25,5 +25,9 @@ public class Caffeine {
         ArrayList<String> drinks4 = new ArrayList<>(Arrays.asList("coffee", "tea", "energy drink", "soda"));
         System.out.println(drinks4);
 
+        ArrayList<String> drinks5 = new ArrayList<>();
+        drinks5.addAll(Arrays.asList("coffee", "tea", "energy drink", "soda"));
+        System.out.println(drinks5);
+
     }
 }
