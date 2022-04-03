@@ -39,8 +39,9 @@ public class ShoppingList {
             } else{
                 shoppingList.remove(removeItem);
             }
-
         }
+
+        System.out.println("Final List: " + shoppingList);
 
     }
 }
