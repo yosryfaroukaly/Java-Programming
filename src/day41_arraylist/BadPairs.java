@@ -1,6 +1,7 @@
 package day41_arraylist;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 
 public class BadPairs {
     /*
@@ -24,6 +25,15 @@ Note: The given ArrayList will always be an even number of elements, so each num
             }
         }
         return goodPairs;
+    }
+
+    public static void main(String[] args) {
+
+        ArrayList<Integer> nums = new ArrayList<>(Arrays.asList(3, 4, 6, 1, 1, 10, 8, 7));
+
+        System.out.println(removeBadPairs(nums));
+
+
     }
 
 }
