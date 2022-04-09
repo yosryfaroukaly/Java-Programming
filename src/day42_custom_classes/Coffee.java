@@ -35,7 +35,7 @@ public class Coffee {
     }
 
     public void refill(double amount){
-        System.out.println("Refilling " + size + " oz of coffee");
+        System.out.println("Refilling " + amount + " oz of coffee");
         size += amount;
     }
 
