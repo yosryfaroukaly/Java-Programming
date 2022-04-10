@@ -25,10 +25,10 @@ public class Carpet {
     }
 
     public String toString(){
-        return isPersian ? "The Persian Carpet " : "The Carpet " +
+        return (isPersian ? "The Persian Carpet " : "The Carpet ") +
                 "\nhas dimensions of " + length + " x " + width +
-                "\nThe unit price is " + unitPrice +
-                "\nAll coming to a total of: " + totalPrice;
+                "\nThe unit price is $" + unitPrice +
+                "\nAll coming to a total of $" + totalPrice;
     }
 
 }
