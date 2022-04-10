@@ -51,7 +51,7 @@ Create a separate class to create Car objects and test the methods created
         return "Model: " + model +
                 "\nYear: " + year +
                 "\nColor: " + color +
-                "\nFuel Level: " + fuelLevel+
+                "\nFuel Level: " + fuelLevel + "%" +
                 "\n" + (isLow() ? "Tank is Low" : "Keep on driving");
     }
 
