@@ -40,7 +40,6 @@ public class Phone {
         this.version = version;
     }
 
-    @Override
     public String toString() {
         return "Phone{" +
                 "name='" + name + '\'' +
