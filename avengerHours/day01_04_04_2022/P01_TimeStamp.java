@@ -1,4 +1,4 @@
-package day1_04_04_2022;
+package day01_04_04_2022;
 
 public class P01_TimeStamp {
     public static void main(String[] args) {
