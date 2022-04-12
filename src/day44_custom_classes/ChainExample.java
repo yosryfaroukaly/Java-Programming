@@ -17,5 +17,11 @@ public class ChainExample {
         System.out.println("Third");
     }
 
+    public ChainExample(double d){
+        this(0);
+        System.out.println("Fourth");
+    }
+
+
 
 }
