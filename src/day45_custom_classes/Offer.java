@@ -1,4 +1,4 @@
-package day44_custom_classes;
+package day45_custom_classes;
 
 public class Offer {
 
@@ -58,11 +58,11 @@ public class Offer {
 
         String info = company + " located in " + location;
 
-        info += "\n " + (salary > 0 ? salary : "");
+        info += " - " + (salary > 0 ? salary : "");
 
-        info += "\n " + (isFullTime ? "Full Time" : "Contract");
+        info += " - " + (isFullTime ? "Full Time" : "Contract");
 
-        info += "\n " + (numberOfPTO > 0 ? numberOfPTO : "");
+        info += " - " + (numberOfPTO > 0 ? numberOfPTO : "");
 
         return info;
 

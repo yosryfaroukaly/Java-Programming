@@ -50,7 +50,6 @@ public class Store {
         }
         System.out.println(totalPriceAll);
 
-        //Class start 8:53
 
 
     }
