@@ -56,7 +56,7 @@ public class Offer {
 
     public String toString(){
 
-        String info = company + " located in " + location;
+        String info = "\n" + company + " located in " + location;
 
         info += " - " + (salary > 0 ? salary : "");
 
