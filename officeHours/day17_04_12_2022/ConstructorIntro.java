@@ -34,14 +34,14 @@ public class ConstructorIntro {
     Types of Constr
 
 
-    No ARG Constr
+    1- No ARG Constr
 
          - if we dont create any CONSTR , Compiler will create DEFAULT Constr (with no param)
 
          - if you create CONSTR either with param OR not , compiler will not create it for you
 
 
-     Parameterized Constr
+     2- Parameterized Constr
 
         - if you want to init your instances , you need to pass your values as arg
 
@@ -52,7 +52,7 @@ public class ConstructorIntro {
 
             int width ;
 
-            public Rectanlge(int length,int width){
+            public Rectangle(int length,int width){
 
             this.length=length;
             this.width=width ;
@@ -60,14 +60,23 @@ public class ConstructorIntro {
             }
 
             // Java prioritizes local variables
-            // that s why we need to specify current Object instance cariable with this
+            // that s why we need to specify current Object instance variable with this
 
          }
 
 
         Constructor Chaining
 
-          WILL CONTINUE
+
+
+
+
+
+
+
+
+
+
 
      */
 }
