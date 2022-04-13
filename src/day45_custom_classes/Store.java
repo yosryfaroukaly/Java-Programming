@@ -31,28 +31,26 @@ public class Store {
         System.out.println(apples);
         System.out.println(apples.totalPrice);
 
-        String [] strs = {"one", "two", "three"};
+        String [] strs = {"one", "two", "three"}; // not doing anything with this array, just a reference to see we have worked with object types with arrays
 
         Food [] allFood = {apples, chips, chicken, null}; // = new Food[4]
         System.out.println(allFood[2]);
 
         allFood[3] = new Food("Fish", 4, 3.55); // making a new Food object assigning it into the array in index 3
 
-        System.out.println(Arrays.toString(allFood));
-
+        System.out.println(Arrays.toString(allFood)); // print all the whole array of Food objects
 
         // calculate the total price of the shopping list
         System.out.println();
         double totalPriceAll = 0;
 
         for(Food each : allFood){ // each == allFood[i]  // why is Food the first thing in the for each - it is the datatype of each element
-            System.out.println(each);
-            totalPriceAll += each.totalPrice;
+            System.out.println(each); // extra line just to see each Food object, each iteration
+            totalPriceAll += each.totalPrice; // takes the Food object's total price instance variable value
         }
-
         System.out.println(totalPriceAll);
 
-
+        //Class start 8:53
 
 
     }
