@@ -1,4 +1,4 @@
-package day18_04_13_2022;
+package day18_04_13_2022.student;
 
 import java.util.ArrayList;
 import java.util.Arrays;
