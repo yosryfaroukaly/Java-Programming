@@ -50,12 +50,6 @@ public class Food {
             - toString()
                 print all the Food information
 
-    Create a separate class to create and test the Food objects
-
-        try making an array of Food objects
-        find all the Food objects that start with 'a'
-        find all the Food objects that have a total price over 20
-
   */
 
     public void calculatePrice(){
@@ -63,7 +57,7 @@ public class Food {
     }
 
     public String toString(){
-        return "Item: " + name + " ~ " + quantity + " x " + unitPrice + "for $" + totalPrice;
+        return "Item: " + name + " ~ " + quantity + " x " + unitPrice + " for $" + totalPrice;
     }
 
 
