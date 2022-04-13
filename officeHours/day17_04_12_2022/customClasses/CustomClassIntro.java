@@ -1,4 +1,4 @@
-package day17_04_12_2022;
+package day17_04_12_2022.customClasses;
 
 import java.util.Objects;
 

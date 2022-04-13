@@ -1,4 +1,4 @@
-package day17_04_12_2022;
+package day17_04_12_2022.customClasses;
 
 public class ConstructorIntro {
     /*
@@ -65,17 +65,36 @@ public class ConstructorIntro {
          }
 
 
-        Constructor Chaining
+        Constructor Chaining --> Call one Constr from ANother One
+
+        - use this() to call another constr
+        - it MUST be in FIRST LINE for another Constr
+        - Can not call more than ONE CONSTR with this()
+        - Can not call ITSELF
+
+
+        This VS This()
+
+        this : it refers current OBJECT
+
+                this.instanceMethd();
+                this.instanceVar;
+
+
+        this() : it refers current OBJECT Constructor.It can take parameters too
 
 
 
 
+        Amazon
 
+                user (M)                  UserInfo(user,password);
+                password (M)              UserInfo(user,password,card);
+                card (optional )
+                address (Optional)
+                DoB   (Optional)
 
-
-
-
-
+               UserInfo(user,password,card,address,DoB);
 
 
      */
