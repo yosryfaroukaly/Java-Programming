@@ -28,5 +28,15 @@ public class BestBuyStores {
         System.out.println(store1.location);
         System.out.println(store2.location);
 
+        BestBuy.reStock();
+        System.out.println(BestBuy.numberOfComputer);
+        store1.reStock();
+        System.out.println(BestBuy.numberOfComputer);
+
+        // BestBuy.openStore()
+
+        store1.openStore();
+        store2.openStore();
+
     }
 }
