@@ -15,6 +15,5 @@ public class ComputerLab {
 
         System.out.println(comp.hasMemory); // you can access static members from an object reference because the object comes from the class, but in general you want to access static members by the class name
 
-
     }
 }
