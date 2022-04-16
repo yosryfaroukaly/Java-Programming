@@ -19,6 +19,10 @@ public class School {
 
         System.out.println(CydeoStudent.instructors[0]);
 
+        System.out.println();
+        for(String each : CydeoStudent.instructors){
+            System.out.println(each);
+        }
 
     }
 }
