@@ -1,4 +1,6 @@
-package day47_encapsulation;
+package day47_encapsulation.traffic;
+
+import day47_encapsulation.traffic.TrafficLight;
 
 public class Road {
     public static void main(String[] args) {

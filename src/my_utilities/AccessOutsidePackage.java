@@ -1,6 +1,6 @@
 package my_utilities;
 
-import day47_encapsulation.AccessModifier;
+import day47_encapsulation.access_modifiers.AccessModifier;
 
 public class AccessOutsidePackage {
 
