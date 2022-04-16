@@ -25,12 +25,12 @@ public class CydeoStudent {
     }
 
     public static void printInfo(){
-        System.out.println("School Name" + schoolName);
+        System.out.println("School Name: " + schoolName);
         System.out.println("Batch Number " + batchNumber);
         System.out.println("Instructors " + Arrays.toString(instructors));
     }
 
-    @Override
+
     public String toString() {
         return "CydeoStudent{" +
                 "name='" + name + '\'' +
