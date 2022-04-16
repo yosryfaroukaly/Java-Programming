@@ -23,6 +23,7 @@ public class DebitCard {
     static String accountType;
 
     static {
+        System.out.println("Static block running");
         accountType = "Checking";
     }
 
@@ -43,7 +44,7 @@ public class DebitCard {
         if(String.valueOf(cardNumber).length() == 16){ // ("" + cardNumber).length()
             this.cardNumber = cardNumber;
         } else {
-            System.err.println("Invalid card number"); // err makes the output red
+            System.out.println("Invalid card number"); // err makes the output red
         }
     }
 
@@ -55,13 +56,13 @@ public class DebitCard {
         if(cardType.equalsIgnoreCase("visa") || cardType.equalsIgnoreCase("mastercard")){
             this.cardType = cardType;
         } else {
-            System.err.println("Invalid Card type - Must be Visa or Mastercard");
+            System.out.println("Invalid Card type - Must be Visa or Mastercard");
         }
 
         if(String.valueOf(pin).length() == 4){
             this.pin = pin;
         } else {
-            System.err.println("Invalid Pin - Must be 4 digits");
+            System.out.println("Invalid Pin - Must be 4 digits");
         }
 
     }
@@ -77,14 +78,14 @@ public class DebitCard {
         String info = "Holder Name: " + holderName;
 
         if(cardNumber != 0){
-            info += "\n Card Number: " + cardNumber;
+            info += "\nCard Number: " + cardNumber;
         }
 
         if(cardType != null){
-            info += "\n Card Type: " + cardType;
+            info += "\nCard Type: " + cardType;
         }
 
-        info += "\n Balance: " + balance;
+        info += "\nBalance: " + balance;
 
         return info;
     }
