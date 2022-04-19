@@ -1,4 +1,4 @@
-package day48_encapsulation;
+package day48_encapsulation.sqare;
 
 public class UseSquare {
     public static void main(String[] args) {
