@@ -11,6 +11,7 @@ public class Zoo {
         Dog dog = new Dog();
         dog.species = "Dog";
         dog.numberOfLegs = 4;
+        //dog.roar();
 
         Lion lion = new Lion();
         // Q: How many instance variables does the lion object have access to?  3
@@ -20,6 +21,7 @@ public class Zoo {
         lion.roar();
         lion.species = "lion";
         lion.walk();
+       // lion.bark();
 
     }
 }
