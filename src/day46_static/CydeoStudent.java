@@ -1,11 +1,15 @@
 package day46_static;
 
+import day42_custom_classes.Coffee;
+
 import java.util.Arrays;
 
 public class CydeoStudent {
 
     public String name;
     public int groupNumber;
+
+    Coffee myCoffee;
 
     public static int batchNumber;
     public static String[] instructors;
