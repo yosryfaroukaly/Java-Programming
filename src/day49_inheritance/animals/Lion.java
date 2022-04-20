@@ -1,6 +1,8 @@
-package day49_inheritance;
+package day49_inheritance.animals;
 
-public class Lion extends Animal{
+import day49_inheritance.animals.Animal;
+
+public class Lion extends Animal {
 
     int maneSize;
 
