@@ -31,5 +31,9 @@ public class Library {
         System.out.println(obj4.author);
         System.out.println(obj4.author.getName());
 
+        //Author author = new Author(); here you are making an Author object in the main method, it is local to the main method
+
+        // but on line 30 the object is made with the reference coming from the book object. The Author object belongs to the Book object
+
     }
 }
