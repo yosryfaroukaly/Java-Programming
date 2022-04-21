@@ -24,5 +24,12 @@ public class Library {
         obj3.title = "Soft skills is important";
         obj3.read();
 
+        // using the updated Author information
+
+        Book obj4 = new Book();
+        obj4.author = new Author("JK Rowling", 40); // made an Author object it belongs to the Book obj4 object
+        System.out.println(obj4.author);
+        System.out.println(obj4.author.getName());
+
     }
 }
