@@ -1,7 +1,5 @@
 package day50_inheritance.computer;
 
-import java.awt.*;
-
 public class Lab {
     public static void main(String[] args) {
 
