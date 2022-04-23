@@ -13,6 +13,5 @@ public class AllShapes {
         System.out.println(obj2.area());
         System.out.println(obj2.perimeter());
 
-
     }
 }
