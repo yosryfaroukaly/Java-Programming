@@ -5,10 +5,13 @@ public class AllShapes {
 
         Square obj1 = new Square(4.5);
         System.out.println(obj1);
-
         System.out.println(obj1.area());
-
         System.out.println(obj1.perimeter());
+
+        Circle obj2 = new Circle(0.5);
+        System.out.println(obj2);
+        System.out.println(obj2.area());
+        System.out.println(obj2.perimeter());
 
 
     }
