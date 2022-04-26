@@ -34,6 +34,9 @@ public class EmployeeObjects {
         System.out.println(employee.getSalary());
 
 
+        // get gender of employee
+        System.out.println(employee.getGender());
+
 
     }
 }
