@@ -17,6 +17,8 @@ public class Address {
 		    - ZipCode length should be equal to 5
      */
 
+
+
     private String street, city, state, zipCode, country;
 
     public Address(String street, String city, String state, String zipCode, String country) {
@@ -25,6 +27,7 @@ public class Address {
         this.state = state;
         setZipCode(zipCode);
         this.country = country;
+
     }
 
     public String getStreet() {
@@ -52,10 +55,12 @@ public class Address {
     public void setState(String state) {
         this.state = state;
     }
-
+    /*  FOR PRACTICE
     public String getZipCode() {
         return zipCode;
     }
+
+     */
 
     public void setZipCode(String zipCode) {
         if (zipCode.length() == 5) {
@@ -66,10 +71,12 @@ public class Address {
     public String getCountry() {
         return country;
     }
-
+    /*   FOR PRACTICE
     public void setCountry(String country) {
         this.country = country;
     }
+
+     */
 
     @Override
     public String toString() {
