@@ -10,5 +10,4 @@ public final class FinalExample {
     public FinalExample(int b){
         this.b = b;
     }
-
 }
