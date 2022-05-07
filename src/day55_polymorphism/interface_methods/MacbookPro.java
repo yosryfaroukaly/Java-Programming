@@ -28,6 +28,7 @@ class Runner{
         MacbookPro obj = new MacbookPro();
         obj.turnOn();
         obj.faceTime();
+//        obj.company(); static methods from an interface are not inherited, so they cannot be accessed from objects, only by the interface
 
 
     }
