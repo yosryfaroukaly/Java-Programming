@@ -7,6 +7,8 @@ Create an interface Shipping
  */
 public interface Shipping {
 
+    String country = "US";
+
     void payForShipping(boolean b);
 
 }
