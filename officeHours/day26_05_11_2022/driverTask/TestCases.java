@@ -29,7 +29,6 @@ public class TestCases {
         /*
          WebDriver driver=new ChromeDriver();
         ((TakeScreenshot)driver).TakeScreenShot("");
-
          WebDriver driver2=new SafariDriver();
 
          */
