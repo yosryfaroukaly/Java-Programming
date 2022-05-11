@@ -1,7 +1,5 @@
 package day56_polymorphism.cars;
 
-import java.beans.DesignMode;
-
 public class Car { }
 
 class BMW extends Car { }
@@ -44,5 +42,9 @@ class Runner {
         Dealership.lease(new LandRover());
 
         Dealership.lease(new Toyota());
+
+        Car car2 = Dealership.getCar(1);
+        Tesla telsa2 = (Tesla)Dealership.getCar(1);
+
     }
 }
