@@ -1,10 +1,11 @@
 package day58_exceptions;
 
+import java.util.Collection;
+
 public class TryWithInheritance {
     public static void main(String[] args) {
 
         try{
-
 
 
         } catch (IndexOutOfBoundsException e){
