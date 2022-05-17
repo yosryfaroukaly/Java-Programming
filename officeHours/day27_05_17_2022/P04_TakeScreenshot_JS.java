@@ -8,6 +8,7 @@ public class P04_TakeScreenshot_JS {
     // How to take screenshot
         WebDriver driver=new ChromeDriver();
 
+
         ((RemoteWebDriver)driver).TakeScreenShot("pic001");
 
         ((TakeScreenshot)driver).TakeScreenShot("pic002");
@@ -15,6 +16,7 @@ public class P04_TakeScreenshot_JS {
 
     // how to executeScripts
         ((JavaScriptExecuter)driver).executeScript("Executing Script");
+
 
 
 
