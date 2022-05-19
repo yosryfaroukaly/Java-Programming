@@ -18,6 +18,6 @@ public class QueueObjects {
         System.out.println(queue);
 
         //System.out.println(new PriorityQueue<>().remove());  causes exception because there is no elements
-        System.out.println(new PriorityQueue<>().poll());//  causes exception because there is no elements
+        System.out.println(new PriorityQueue<>().poll());//  return null
     }
 }
