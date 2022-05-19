@@ -25,4 +25,5 @@ public class StackObjects {
         System.out.println(stack);
 
     }
+
 }
