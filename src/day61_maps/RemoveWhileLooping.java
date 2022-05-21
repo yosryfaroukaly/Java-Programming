@@ -2,6 +2,7 @@ package day61_maps;
 
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Iterator;
 
 public class RemoveWhileLooping {
     public static void main(String[] args) {
@@ -24,7 +25,16 @@ public class RemoveWhileLooping {
 //            }
 //        }
 
+        Iterator<Integer> it = list.iterator();
+
+        while(it.hasNext()){ // checks if there is an element next to it, if not stop the loop
+            if(it.next() <= 5){ // move to the next element and then return it
+                it.remove(); // removing the element from the list
+            }
+        }
+
         System.out.println(list);
+
 
 
     }
