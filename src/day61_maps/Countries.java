@@ -1,9 +1,6 @@
 package day61_maps;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.HashMap;
-import java.util.Map;
+import java.util.*;
 
 public class Countries {
     public static void main(String[] args) {
@@ -35,6 +32,15 @@ public class Countries {
 
             }
 
+        }
+
+        System.out.println();
+        System.out.println("What Country do you want to tour?");
+        Scanner input = new Scanner(System.in);
+        String country = input.nextLine();
+
+        for(String cities : countries.get(country)){
+            System.out.println("Touring..." + cities);
         }
 
 
