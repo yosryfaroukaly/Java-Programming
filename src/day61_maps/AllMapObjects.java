@@ -43,7 +43,7 @@ public class AllMapObjects {
         hashtable.put("aysun", "ui testing");
         hashtable.put("nadir", "soft skills");
         hashtable.put("username", "password");
-        // hashtable.put(null, "nothing"); TreeMap objects cannot have a null key
+        // hashtable.put(null, null); Hashtable objects cannot have a null key or value
         System.out.println(hashtable);
 
     }
