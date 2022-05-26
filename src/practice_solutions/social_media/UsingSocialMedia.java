@@ -1,6 +1,5 @@
 package practice_solutions.social_media;
 
-
 import java.util.ArrayList;
 import java.util.Arrays;
 
@@ -13,7 +12,7 @@ public class UsingSocialMedia {
         System.out.println(Facebook.platform);
 
         fatma.post("Oh today we had a good class");
-        fatma.post("I am regretting more java");
+        fatma.post("I am regretting not doing more java");
 
         System.out.println(fatma.getAllPost());
 

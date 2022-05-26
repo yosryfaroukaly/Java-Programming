@@ -56,7 +56,8 @@ public class Facebook extends SocialMedia implements HasGroups{
 
     @Override
     public void leaveGroup(String group) {
-
+        System.out.println(username + " left " + group + " group");
+        numberOfGroups--;
     }
 
     public String getUsername() {
