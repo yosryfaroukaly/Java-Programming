@@ -8,11 +8,11 @@ public class MapSalary {
 
         Map<String, Double> map = new HashMap<>();
         map.put("James", 70000.0);
-        map.put("Jane", 30000.0);
+        map.put("Jane", 124000.0);
         map.put("Ana", 140000.15);
         map.put("Jorge", 4245250.23);
         map.put("Elza", 1231312.1);
-        map.put("Peter", 231234.0);
+        map.put("Peter", 131234.0);
 
         String nameForLargest = "";
         double maxSalary = 0.0;
@@ -39,7 +39,30 @@ public class MapSalary {
         System.out.println("Max Salary: " + nameForLargest + " - $" + maxSalary);
         System.out.println("Smallest Salary: " + nameForLowest + " - $" + lowestSalary);
 
+        System.out.println();
 
+        int counter = 0;
+
+        for(double value : map.values()){
+            if(value >= 120_000 && value <= 150_000){
+                counter++;
+            }
+        }
+
+        System.out.println("Number over 120k and less than 150k: "+ counter);
+        System.out.println();
+
+        for(String name : map.keySet()){
+            if(map.get(name) <= 218_000){
+                System.out.println(name);
+            }
+        }
+        System.out.println();
+
+        for(String key : map.keySet()){
+            map.put(key, map.get(key) + 10_000);
+        }
+        System.out.println(map);
     }
 }
 /*
