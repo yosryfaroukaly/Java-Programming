@@ -8,6 +8,9 @@ public class CallPredicateMethods {
 
         System.out.println(UsePredicate.isPalindrome.test("abc"));
 
+        System.out.println(UsePredicate.isPrime.test(5));
+
+        System.out.println(UsePredicate.isPrime.test(10));
 
     }
 }
