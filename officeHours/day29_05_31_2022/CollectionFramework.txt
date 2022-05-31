@@ -25,6 +25,7 @@ Collection framework: consists of multiple interfaces, each interface is impleme
                         push(): add element into stack
 
 
+
 			Set (I): does not have index, does not accept duplicates,Insertion Order not preserved
 
 				HashSet (C): order is random. accepts null key. faster
