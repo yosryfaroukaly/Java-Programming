@@ -1,5 +1,6 @@
 package day64_functional_interface;
 
+import java.util.Arrays;
 import java.util.function.BiPredicate;
 
 public class BiPredicateExample {
@@ -19,6 +20,19 @@ public class BiPredicateExample {
         System.out.println(contains.test(arr, 12)); // true
         System.out.println(contains.test(arr, 50)); // false
         System.out.println(contains.test(arr, 24)); // true
+
+        BiPredicate<String, String> anagram = (one, two) -> {
+
+            char [] oneArr = one.toCharArray();
+            char [] twoArr = two.toCharArray();
+            Arrays.sort(oneArr);
+            Arrays.sort(twoArr);
+
+            return Arrays.equals(oneArr, twoArr);
+
+        };
+
+        System.out.println(anagram.test("listen", "silent")); // true
 
 
     }
