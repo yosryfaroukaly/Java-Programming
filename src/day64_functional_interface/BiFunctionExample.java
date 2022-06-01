@@ -1,8 +1,6 @@
 package day64_functional_interface;
 
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
 import java.util.function.BiFunction;
 
 public class BiFunctionExample {
@@ -32,6 +30,11 @@ public class BiFunctionExample {
             }
             return map;
         };
+
+        List<Integer> keys = new ArrayList<>(Arrays.asList(1, 2, 3, 4));
+        List<String> values = new ArrayList<>(Arrays.asList("James", "Ana", "Emre", "Gina"));
+
+        System.out.println(createMap.apply(keys, values));
 
 
     }
