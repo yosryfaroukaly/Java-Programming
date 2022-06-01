@@ -1,5 +1,7 @@
 package day63_functional_interface;
 
+import java.util.ArrayList;
+
 public class CallPredicateMethods {
     public static void main(String[] args) {
 
@@ -11,6 +13,7 @@ public class CallPredicateMethods {
         System.out.println(UsePredicate.isPrime.test(5));
 
         System.out.println(UsePredicate.isPrime.test(10));
+
 
     }
 }
