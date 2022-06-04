@@ -20,6 +20,18 @@ public class StreamMethods2 {
         System.out.println(days);
         System.out.println(abr);
 
+        System.out.println();
+        //filter() allows us to maintain only certain elements based on the lambda expression
+
+        List<Integer> list2 = new ArrayList<>(Arrays.asList(1, 2, 3, 4, 5, 6, 7, 8, 9, 10));
+        List<Integer> evens = list2.stream().filter( p -> p % 2 == 0).collect(Collectors.toList());
+        List<Integer> odds = list2.stream().filter( p -> p % 2 == 1).collect(Collectors.toList());
+        System.out.println(list2);
+        System.out.println(evens);
+        System.out.println(odds);
+        System.out.println(list2.stream().filter( p -> p % 2 == 0).count());
+        System.out.println(list2.stream().filter( p -> p % 2 == 0).distinct().count()); // finding how many unique even numbers there is
+
 
 
 
