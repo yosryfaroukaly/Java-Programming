@@ -53,6 +53,15 @@ public class StreamMethods2 {
 
             lines 46 and 47 are the same
          */
+        System.out.println();
+        List<Integer> list4 = new ArrayList<>(Arrays.asList(5, 10, 20, 25, 15));
+        System.out.println("divisible by 5 " + list4.stream().allMatch(p -> p % 5 == 0));
+        System.out.println("even " + list4.stream().allMatch(p -> p % 2 == 0));
+
+        System.out.println("more than 30 " + list4.stream().anyMatch(p -> p > 30));
+        System.out.println("more than 20 " + list4.stream().anyMatch(p -> p > 20));
+
+        System.out.println("none are above 30 " + list4.stream().noneMatch(p -> p > 30));
 
     }
 }
