@@ -23,7 +23,7 @@ public class StreamMethods2 {
         System.out.println();
         //filter() allows us to maintain only certain elements based on the lambda expression
 
-        List<Integer> list2 = new ArrayList<>(Arrays.asList(1, 2, 3, 4, 5, 6, 7, 8, 9, 10));
+        List<Integer> list2 = new ArrayList<>(Arrays.asList(1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 2, 2, 4));
         List<Integer> evens = list2.stream().filter( p -> p % 2 == 0).collect(Collectors.toList());
         List<Integer> odds = list2.stream().filter( p -> p % 2 == 1).collect(Collectors.toList());
         System.out.println(list2);
@@ -40,7 +40,19 @@ public class StreamMethods2 {
         System.out.println(java);
         System.out.println(strs.stream().filter( p -> p.toLowerCase().contains("java")).collect(Collectors.toList()));
 
+        System.out.println();
+        // forEach
+        List<Integer> list3 = new ArrayList<>(Arrays.asList(1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 2, 2, 4));
+        list3.stream().filter( p -> p % 2 == 0).forEach(e -> System.out.println(e));
+        list3.stream().filter( p -> p % 2 == 0).forEach(System.out::println);
 
+        /*
+            .stream() creating a stream from my arraylist
+            .filter() only keeping all the even numbers in stream
+            .forEach() do an action by on the lambda expression
+
+            lines 46 and 47 are the same
+         */
 
     }
 }
