@@ -94,8 +94,5 @@ public class Recap {
         System.out.println(mergeToList.apply(arr5, arr6));
 
 
-
-
-
     }
 }
