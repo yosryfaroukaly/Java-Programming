@@ -44,6 +44,29 @@ public class StreamMethods {
         String [] arr3 = {"java", "hello", "world", "pen", "computer"};
         System.out.println(Arrays.toString(Arrays.stream(arr3).skip(3).toArray()));
 
+        System.out.println();
+        // limit(): keeping a certain amount of elements
+        ArrayList<Integer> list4 = new ArrayList<>(Arrays.asList(1, 2, 3, 4, 5, 6, 7, 8, 9, 10));
+        System.out.println(list4.stream().limit(6).collect(Collectors.toList()));
+        System.out.println(list4.stream().limit(5).skip(3).collect(Collectors.toList()));
+        System.out.println(list4.stream().skip(3).limit(4).collect(Collectors.toList()));
+
+        System.out.println();
+
+        // count
+        List<Integer> list5 = new ArrayList<>(Arrays.asList(1, 1, 1, 2, 2, 3, 5, 6, 3, 5));
+        System.out.println(list5.stream().count());
+        System.out.println(list5.stream().distinct().count());
+
+        // Task: find how many different letters there is (no about duplicate)
+        String s = "aaabbbbccccddddeefggg";
+        System.out.println(Arrays.stream(s.split("")).distinct().collect(Collectors.toList()));
+        System.out.println(Arrays.stream(s.split("")).distinct().count());
+
+
+
+
+
 
 
 
