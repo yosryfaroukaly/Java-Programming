@@ -29,6 +29,26 @@ public class StreamMethods {
 
         System.out.println("original list " + list2); // original list is the same, not changed
 
+        int [] arr2 = {1, 2, 2, 2, 3, 4, 5, 1, 2, 2, 7, 6, 7, 7, 8};
+        arr2 = Arrays.stream(arr2).distinct().toArray();
+        System.out.println("array " + Arrays.toString(arr2));
+
+        System.out.println();
+        // skip()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
