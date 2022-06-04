@@ -60,7 +60,7 @@ public class StreamMethods {
 
         // Task: find how many different letters there is (no about duplicate)
         String s = "aaabbbbccccddddeefggg";
-        System.out.println(Arrays.stream(s.split("")).distinct().collect(Collectors.toList()));
+        System.out.println(Arrays.stream(s.split("")).distinct().collect(Collectors.toList())); // i could have also done .toArray() instead of collect method
         System.out.println(Arrays.stream(s.split("")).distinct().count());
 
 
