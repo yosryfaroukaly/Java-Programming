@@ -32,6 +32,13 @@ public class StreamMethods2 {
         System.out.println(list2.stream().filter( p -> p % 2 == 0).count());
         System.out.println(list2.stream().filter( p -> p % 2 == 0).distinct().count()); // finding how many unique even numbers there is
 
+        List<String> strs = new ArrayList<>(Arrays.asList("java", "javascript", "selenium", "cypress", "jAVa", "hello world", "JAVA"));
+        long java = strs.stream().filter( p -> {
+            p = p.toLowerCase();
+            return p.contains("java");
+        }).count();
+        System.out.println(java);
+        System.out.println(strs.stream().filter( p -> p.toLowerCase().contains("java")).collect(Collectors.toList()));
 
 
 
