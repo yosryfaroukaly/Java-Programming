@@ -9,7 +9,7 @@ Iterable: Root Interface of Collection
 
 		Iterator (I):
 			1. allows us to get access to each object
-			2. allows us to remove any objects from collection type
+			2. allows us to REMOVE  any objects from collection type
 
 
 			methods:
@@ -33,6 +33,9 @@ Map (I): pair of collection
 		 does not support primitives
 		 size is dynamic
 		 key MUST be unique, value can be duplicated
+
+		 1 = Mehmet
+		 2 = Shina
 
 		HashMap (C): both key and value can be null
 					 Maintains the random order
