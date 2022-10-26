@@ -5,7 +5,7 @@ public class VoidVSReturn {
     public static void main(String[] args) {
 
         sayHello();
-        //System.out.println(sayHello());
+        ////System.out.println(sayHello());
         //String msg = sayHello(); this doesn't work because the method is void
 
         sayBye();
