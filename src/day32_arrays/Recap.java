@@ -27,7 +27,7 @@ public class Recap {
 
         String str = "Today is Saturday";
 
-        System.out.println(str.split(" "));
+       // System.out.println(str.split(" "));
         System.out.println(Arrays.toString(str.toCharArray())); // returns char [] to print as a String
 
         System.out.println(Arrays.toString(str.split(" "))); // returns String [] to print as a String

@@ -100,10 +100,6 @@ public class RealEstate {
             } else {
                 System.out.println("Too much money for this agency");
             }
-
         }
-
-
     }
-
 }

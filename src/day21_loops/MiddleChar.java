@@ -12,7 +12,7 @@ public class MiddleChar {
 
     public static void main(String[] args) {
 
-        String s = "abcdef";
+        String s = "elephant";
                 //  012345
 
         int mid = s.length() / 2;
